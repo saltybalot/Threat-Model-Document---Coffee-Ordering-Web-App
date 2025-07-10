@@ -380,8 +380,8 @@
           },
           {
             "position": {
-              "x": 1160,
-              "y": 180
+              "x": 1350,
+              "y": 170
             },
             "size": {
               "width": 250,
@@ -699,6 +699,108 @@
               {
                 "x": 680,
                 "y": 450
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": " initiates a payment request, \nsending tokenized payment information",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              " initiates a payment request, \nsending tokenized payment information"
+            ],
+            "id": "c7aca8f2-b9b9-4b8f-b665-be56db5ae091",
+            "source": {
+              "cell": "5bbe9cde-2c69-47dc-86c6-adc7891b24a1",
+              "port": "5259cefe-77e1-4001-a36a-2b5176512f66"
+            },
+            "target": {
+              "cell": "644e2d0f-5965-4f32-a4a4-5a67384d645f",
+              "port": "136f95e1-a04a-442e-b2a5-516f8bd38f65"
+            },
+            "vertices": [
+              {
+                "x": 1090,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "processes the payment and \nsends a transaction response\n(success/failure) back",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "processes the payment and \nsends a transaction response\n(success/failure) back"
+            ],
+            "id": "ea0468c8-c3c4-47b9-b5a5-0ab8b7c28d0f",
+            "source": {
+              "cell": "644e2d0f-5965-4f32-a4a4-5a67384d645f",
+              "port": "136f95e1-a04a-442e-b2a5-516f8bd38f65"
+            },
+            "target": {
+              "cell": "5bbe9cde-2c69-47dc-86c6-adc7891b24a1",
+              "port": "5259cefe-77e1-4001-a36a-2b5176512f66"
+            },
+            "vertices": [
+              {
+                "x": 1140,
+                "y": 210
               }
             ]
           }
