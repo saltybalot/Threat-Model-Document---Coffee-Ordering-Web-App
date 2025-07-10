@@ -136,8 +136,8 @@
           },
           {
             "position": {
-              "x": 795,
-              "y": 420
+              "x": 820,
+              "y": 600
             },
             "size": {
               "width": 220,
@@ -569,7 +569,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "sends an order confirmation \nand status update to the customer",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -582,7 +582,7 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "sends an order confirmation \nand status update to the customer"
             ],
             "id": "b86b9ebc-dbf8-4797-a84a-0ca21cc2c117",
             "source": {
@@ -595,7 +595,7 @@
             },
             "vertices": [
               {
-                "x": 720,
+                "x": 710,
                 "y": 250
               }
             ]
@@ -748,8 +748,8 @@
             },
             "vertices": [
               {
-                "x": 1090,
-                "y": 130
+                "x": 1240,
+                "y": 110
               }
             ]
           },
@@ -799,8 +799,59 @@
             },
             "vertices": [
               {
-                "x": 1140,
-                "y": 210
+                "x": 1260,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "If payment is successful, it records the \nnew order details and payment status \nin the database.",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "If payment is successful, it records the \nnew order details and payment status \nin the database."
+            ],
+            "id": "6b606a1d-a226-4caf-882f-fd86d7b98eda",
+            "source": {
+              "cell": "5bbe9cde-2c69-47dc-86c6-adc7891b24a1",
+              "port": "cb52f944-550f-477d-ac9e-51d03cd66aa4"
+            },
+            "target": {
+              "cell": "b621bb13-c286-48e3-878f-a4608e5a2cf6",
+              "port": "5237f748-0346-46f4-866f-24afbaabb8ec"
+            },
+            "vertices": [
+              {
+                "x": 905,
+                "y": 460
               }
             ]
           }
