@@ -620,7 +620,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Customer selects items, customizes \nthem, and submits the order details ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -633,7 +633,7 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "Customer selects items, customizes \nthem, and submits the order details "
             ],
             "id": "26632fe1-8b0a-4551-9d1c-76a167294bec",
             "source": {
@@ -671,7 +671,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -684,7 +684,7 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              ""
             ],
             "id": "57719f86-f152-40c5-b267-4856667a6ad3",
             "source": {
